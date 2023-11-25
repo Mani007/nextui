@@ -18,7 +18,8 @@ function Navbarset() {
         "Log Out",
       ];
   return (
-    <Navbar className='mx-0 w-screen' disableAnimation isBordered>
+    <>
+    <Navbar className=' w-screen' disableAnimation isBordered>
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"/>
@@ -37,7 +38,7 @@ function Navbarset() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="container sm:flex gap-4 item-center justify-center" >
+      <NavbarContent className="   " >
         <NavbarBrand>
         <Image
       src="/logo/ops.png"
@@ -94,6 +95,7 @@ function Navbarset() {
         ))}
       </NavbarMenu>
     </Navbar>
+    </>
   )
 }
 

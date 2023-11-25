@@ -4,11 +4,15 @@ import Image from 'next/image'
 import {NextUIProvider} from "@nextui-org/react";
 import First from './components/First';
 import Navbarset from './components/Navbarset';
+import Navtail from './components/Navtail';
+import Hero from './components/Hero';
 export default function Home() {
   return (
     <NextUIProvider>
    {/* <First></First> */}
-   <Navbarset></Navbarset>
+   {/* <Navbarset></Navbarset> */}
+   <Navtail/>
+   <Hero/>
     </NextUIProvider>
   )
 }
