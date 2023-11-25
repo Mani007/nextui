@@ -18,14 +18,14 @@ function Navbarset() {
         "Log Out",
       ];
   return (
-    <Navbar disableAnimation isBordered>
+    <Navbar className='mx-0 w-screen' disableAnimation isBordered>
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"/>
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden pr-3" justify="center">
-        <NavbarBrand>
+      <NavbarContent className=" sm:hidden pr-3" >
+        <NavbarBrand >
         <Image
       src="/logo/ops.png"
       width={300}
@@ -37,42 +37,43 @@ function Navbarset() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="container sm:flex gap-4 item-center justify-center" >
         <NavbarBrand>
         <Image
       src="/logo/ops.png"
-      width={150}
-      height={150}
-      alt="Picture of the author"
+      width={200}
+      height={200}
+      alt="opscraft logo"
     />
           {/* <AcmeLogo /> */}
           {/* <p className="font-bold text-inherit">ACME</p> */}
         </NavbarBrand>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
+          <Link color="foreground" className='hover:text-teal-700' href="#">
+         Features
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="warning">
+          <Link href="#" aria-current="page" className='hover:text-teal-700' color="success">
             Customers
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" className='hover:text-teal-700' href="#">
             Integrations
           </Link>
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
+      <NavbarContent className='flex-row-reverse  '>
+        
         <NavbarItem>
-          <Button as={Link} color="warning" href="#" variant="flat">
-            Sign Up
+          <Button as={Link} color="primary" className='hover:bg-green-400 text-sky-700' href="#" variant="flat">
+            Contact Us
           </Button>
+        </NavbarItem>
+        <NavbarItem className="hidden lg:flex">
+          <Link href="#" className='hover:text-teal-700'>Careers</Link>
         </NavbarItem>
       </NavbarContent>
 
