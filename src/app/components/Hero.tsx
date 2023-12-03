@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
     <section className="text-gray-600 body-font">
-  <div className="container relative mx-auto flex px-5 py-24 items-center justify-center flex-col">
+  <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
     {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
     {/* <Image
       src="/images/opscraftherosection.png"
