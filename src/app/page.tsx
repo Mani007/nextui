@@ -9,6 +9,8 @@ import Hero from './components/Hero';
 import Sevices from './components/Sevices';
 import Card from './components/Card';
 import Mcard from './components/Mcard';
+import Corsal from './components/Corsal';
+import Swip from './components/Swip';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -17,7 +19,9 @@ export default function Home() {
    <Navtail/>
    <Hero/>
    <Sevices/>
-   <Mcard/>
+   {/* <Mcard/> */}
+   {/* <Corsal/> */}
+   <Swip/>
     </NextUIProvider>
   )
 }
