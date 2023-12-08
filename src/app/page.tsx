@@ -12,6 +12,7 @@ import Mcard from './components/Mcard';
 import Corsal from './components/Corsal';
 import Swip from './components/Swip';
 import Topbar from './components/Topbar';
+import Grid from './components/Grid';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -24,6 +25,7 @@ export default function Home() {
    {/* <Corsal/> */}
    {/* <Swip/> */}
    <Topbar/>
+   <Grid/>
     </NextUIProvider>
   )
 }
