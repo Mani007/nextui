@@ -4,7 +4,7 @@ function Navtail() {
   return (
     <>
     <div className="flex justify-center ">
- <div className="self-center top-0 w-full  ">
+ <div className="self-center top-0 w-full z-10 ">
      <div className="flex justify-between items-center text-gray-700">
          <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}

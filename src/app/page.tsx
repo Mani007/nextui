@@ -13,6 +13,7 @@ import Corsal from './components/Corsal';
 import Swip from './components/Swip';
 import Topbar from './components/Topbar';
 import Grid from './components/Grid';
+import Casenav from './components/Casenav';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -25,6 +26,7 @@ export default function Home() {
    {/* <Corsal/> */}
    {/* <Swip/> */}
    <Topbar/>
+   <Casenav/>
    <Grid/>
     </NextUIProvider>
   )

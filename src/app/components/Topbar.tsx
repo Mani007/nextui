@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Topbar() {
   return (
     <>
-    <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
+    <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col ">
     
     <Image
       src="/images/opscraftherosection.png"
