@@ -3,7 +3,7 @@ import React from 'react'
 function Rightcard() {
   return (
     <>
-    <div className=" container relative mx-auto grid grid-cols-2 gap-8 px-5 py-5">
+    <div className=" container relative mx-auto md:grid md:grid-cols-2 md:gap-8 px-5 py-5 sm:flex sm:flex-row ">
         <div className=' flex bg-green-200  text-center items-center justify-center flex-col '>
             <p className="text-6xl ">95%</p> 
             <p className="text-2xl ">of your cloud cost can be saved</p>
