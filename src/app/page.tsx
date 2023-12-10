@@ -15,6 +15,7 @@ import Topbar from './components/Topbar';
 import Grid from './components/Grid';
 import Casenav from './components/Casenav';
 import Rightcard from './components/Rightcard';
+import Textcon from './components/Textcon';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -28,7 +29,8 @@ export default function Home() {
    {/* <Swip/> */}
    <Topbar/>
    {/* <Casenav/> */}
-   <Rightcard/>
+   {/* <Rightcard/> */}
+   <Textcon/>
    <Grid/>
     </NextUIProvider>
   )
