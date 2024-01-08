@@ -16,12 +16,14 @@ import Grid from './components/Grid';
 import Casenav from './components/Casenav';
 import Rightcard from './components/Rightcard';
 import Textcon from './components/Textcon';
+import Navani from './components/Navani';
 export default function Home() {
   return (
     <NextUIProvider>
    {/* <First></First> */}
    {/* <Navbarset></Navbarset> */}
-   <Navtail/>
+   <Navani/>
+   {/* <Navtail/> */}
    {/* <Hero/>
    <Sevices/> */}
    {/* <Mcard/> */}
