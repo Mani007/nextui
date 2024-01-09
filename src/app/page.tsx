@@ -19,6 +19,7 @@ import Textcon from './components/Textcon';
 import Navani from './components/Navani';
 import Footer from './components/Footer';
 import Locations from './basepages/Locations';
+import Services from './basepages/Services';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -35,7 +36,8 @@ export default function Home() {
    {/* <Casenav/> */}
    {/* <Rightcard/> */}
    {/* <Textcon/> */}
-   <Locations/>
+   {/* <Locations/> */}
+   <Services/>
    <Grid/>
    <Footer/>
     </NextUIProvider>
