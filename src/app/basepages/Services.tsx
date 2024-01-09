@@ -8,8 +8,10 @@ import undraw_teaching_re_g7e3 from "../../../public/maps/illustration/undraw_te
 function Services() {
   return (
     <>
-      <div className="container relative mx-auto flex flex-col justify-between items-center  mt-4 px-4 gap-2 text-center md:flex-row   w-screen">
-        <div className="w-screen bg-gray-200  md:w-screen">
+    <h2 className="text-3xl text-center "> Services</h2>
+      <div className="container relative mx-auto flex flex-col justify-between items-stretch content-center mt-4 px-4 gap-6 text-center md:flex-row   w-screen">
+        
+        <div className="w-screen bg-gray-200 overflow-hidden shadow-lg md:w-screen">
           <div className="container max-w-sm rounded  shadow-lg">
             <Image
               src={undraw_success_factors_re_ce93}
@@ -17,41 +19,44 @@ function Services() {
               height={600}
               alt="Picture of the author"
             />
-            <h2 className="text-2xl">Consulting</h2>
           </div>
-          <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
+            <h2 className="text-2xl underline">Consulting</h2>
+            <p className="text-xl"> No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years. </p> <br />
+          <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded ">
             Read More
           </button>
         </div>
-        <div className="w-screen bg-gray-200  md:w-screen">
+        <div className="w-screen bg-gray-200 overflow-hidden shadow-lg  md:w-screen">
           <div className="container max-w-sm rounded  shadow-lg">
             <Image
               src={undraw_programming_re_kg9v}
               width={720}
               height={600}
-              alt="Picture of the author"
+              alt="No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years."
             />
-            <h2 className="text-2xl">Development</h2>
           </div>
+            <h2 className="text-2xl underline">Development</h2>
+            <p className="text-xl"> Complete end-to-end AI/ML technology development that reduced your development costs and time upsto 90 %. And with complete data protection. </p> <br />
           <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button>
         </div>
-        <div className="w-screen bg-gray-200  md:w-screen">
+        <div className="w-screen bg-gray-200 overflow-hidden shadow-lg  md:w-screen">
           <div className="container max-w-sm rounded  shadow-lg">
             <Image
               src={undraw_coworking}
               width={720}
               height={600}
-              alt="Picture of the author"
+              alt="Complete end-to-end AI/ML technology development that reduced your development costs and time upsto 90 %. And with complete data protection."
             />
-            <h2 className="text-2xl">Staffing</h2>
           </div>
+            <h2 className="text-2xl underline">Staffing</h2>
+            <p className="text-xl"> No more long hiring cycle for recruiting an AI/ML expert. Our team can deliver anything in AI/ML.  </p> <br />
           <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button>
         </div>
-        <div className="w-screen bg-gray-200  md:w-screen">
+        <div className="w-screen bg-gray-200 overflow-hidden shadow-lg  md:w-screen">
           <div className="container max-w-sm rounded  shadow-lg">
             <Image
               src={undraw_questions_re_1fy7}
@@ -59,13 +64,14 @@ function Services() {
               height={600}
               alt="Picture of the author"
             />
-            <h2 className="text-2xl">Troubleshooting</h2>
           </div>
+            <h2 className="text-2xl underline">Troubleshooting</h2>
+            <p className="text-xl"> Your current AI/ML system failed and you need to fix it immidiately. Try our premium trouble shooting services for mission critical applications.</p> <br />
           <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button>
         </div>
-        <div className="w-screen bg-gray-200  md:w-screen">
+        <div className="w-screen bg-gray-200 overflow-hidden shadow-lg  md:w-screen">
           <div className="container max-w-sm rounded  shadow-lg">
             <Image
               src={undraw_teaching_re_g7e3}
@@ -73,8 +79,9 @@ function Services() {
               height={600}
               alt="Picture of the author"
             />
-            <h2 className="text-2xl">Training</h2>
           </div>
+            <h2 className="text-2xl underline">Training</h2>
+            <p className="text-xl"> Tailor made corporate traing in state-of-the-art MLops to skyrocket your team's productivity. </p> <br />
           <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button>

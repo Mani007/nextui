@@ -11,7 +11,7 @@ function Navani() {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Abour' },
+    { id: 1, text: 'About' },
     { id: 2, text: 'Technology' },
     { id: 3, text: 'Services' },
     { id: 4, text: 'Solutions' },
