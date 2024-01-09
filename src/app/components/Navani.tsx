@@ -11,11 +11,14 @@ function Navani() {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home' },
-    { id: 2, text: 'Company' },
-    { id: 3, text: 'Resources' },
-    { id: 4, text: 'About' },
-    { id: 5, text: 'Contact' },
+    { id: 1, text: 'Abour' },
+    { id: 2, text: 'Technology' },
+    { id: 3, text: 'Services' },
+    { id: 4, text: 'Solutions' },
+    { id: 5, text: 'Impact Stories' },
+    { id: 6, text: 'Industries' },
+    { id: 7, text: 'Responsible AI' },
+
   ];
   return (
     <>
