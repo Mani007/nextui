@@ -22,7 +22,7 @@ function Services() {
           </div>
             <h2 className="text-2xl underline">Consulting</h2>
             <p className="text-xl"> No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years. </p> <br />
-          <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded ">
+          <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded mt-auto ">
             Read More
           </button>
         </div>
