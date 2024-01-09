@@ -32,7 +32,7 @@ export default function Home() {
    {/* <Mcard/> */}
    {/* <Corsal/> */}
    {/* <Swip/> */}
-   {/* <Topbar/> */}
+   <Topbar/>
    {/* <Casenav/> */}
    {/* <Rightcard/> */}
    {/* <Textcon/> */}
