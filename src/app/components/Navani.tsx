@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import Image from 'next/image'
 function Navani() {
     const [nav, setNav] = useState(false);
 
@@ -18,9 +19,18 @@ function Navani() {
   ];
   return (
     <>
-       <div className='bg-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+       <div className='bg-slate-200 flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 md:mt-4 text-slate-900'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
+      {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
+      <div className="mx-2 my-4 ">
+             {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
+             <Image
+      src="/logo/ops.png"
+      width={150}
+      height={150}
+      alt="Picture of the author"
+    />
+         </div>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
@@ -43,12 +53,21 @@ function Navani() {
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full  bg-slate-200 ease-in-out duration-500 z-10'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
         {/* Mobile Logo */}
-        <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1>
+        {/* <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1> */}
+        <div className="mx-2 my-4 ">
+             {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
+             <Image
+      src="/logo/ops.png"
+      width={150}
+      height={150}
+      alt="Picture of the author"
+    />
+         </div>
 
         {/* Mobile Navigation Items */}
         {navItems.map(item => (
