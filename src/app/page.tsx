@@ -18,6 +18,7 @@ import Rightcard from './components/Rightcard';
 import Textcon from './components/Textcon';
 import Navani from './components/Navani';
 import Footer from './components/Footer';
+import Locations from './basepages/Locations';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -30,10 +31,11 @@ export default function Home() {
    {/* <Mcard/> */}
    {/* <Corsal/> */}
    {/* <Swip/> */}
-   <Topbar/>
+   {/* <Topbar/> */}
    {/* <Casenav/> */}
    {/* <Rightcard/> */}
-   <Textcon/>
+   {/* <Textcon/> */}
+   <Locations/>
    <Grid/>
    <Footer/>
     </NextUIProvider>

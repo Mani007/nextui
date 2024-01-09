@@ -9,7 +9,7 @@ function Footer() {
         <div
             className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
             <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-                <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
+                <a className="flex items-center justify-center font-medium text-[#00df9a] title-font md:justify-start">
                 <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
              <Image
@@ -53,19 +53,19 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">OPSCRAFT</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">The Company</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a] ">The Company</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">The Team</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">The Team</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Partner with US</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Partner with US</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Responsible AI</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Responsible AI</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Careers</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Careers</a>
                         </li>
                     </nav>
                 </div>
@@ -73,16 +73,16 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Technology</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Services</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Services</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Solutions</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Solutions</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Industries</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Industries</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Impact</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Impact</a>
                         </li>
                     </nav>
                 </div>
@@ -91,13 +91,13 @@ function Footer() {
                     </h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Terms &amp; Privacy</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Terms &amp; Privacy</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Licenes</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Licenes</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">FAQ</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">FAQ</a>
                         </li>
                     </nav>
                 </div>
@@ -105,13 +105,13 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Contact</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">team@opscraft.cloud</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">team@opscraft.cloud</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Request a Demo</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Request a Demo</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">+123-456-7890</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">+123-456-7890</a>
                         </li>
                     </nav>
                 </div>
