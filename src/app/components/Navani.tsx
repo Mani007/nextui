@@ -53,7 +53,7 @@ function Navani() {
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full  bg-slate-200 ease-in-out duration-500 z-10'
+            ? 'fixed md:hidden right-0 top-24 w-[60%] h-full  bg-slate-200 ease-in-out duration-500 z-10'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
@@ -61,12 +61,12 @@ function Navani() {
         {/* <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1> */}
         <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
-             <Image
+             {/* <Image
       src="/logo/ops.png"
       width={150}
       height={150}
       alt="Picture of the author"
-    />
+    /> */}
          </div>
 
         {/* Mobile Navigation Items */}
