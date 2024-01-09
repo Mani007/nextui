@@ -17,7 +17,7 @@ function Services() {
               src={undraw_success_factors_re_ce93}
               width={720}
               height={600}
-              alt="Picture of the author"
+              alt="No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years."
             />
           </div>
             <h2 className="text-2xl underline">Consulting</h2>

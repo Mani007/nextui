@@ -20,6 +20,7 @@ import Navani from './components/Navani';
 import Footer from './components/Footer';
 import Locations from './basepages/Locations';
 import Services from './basepages/Services';
+import Techitem from './components/Techitem';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -37,6 +38,7 @@ export default function Home() {
    {/* <Rightcard/> */}
    {/* <Textcon/> */}
    {/* <Locations/> */}
+   <Techitem/>
    <Services/>
    <Grid/>
    <Footer/>
