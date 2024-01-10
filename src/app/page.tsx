@@ -40,7 +40,7 @@ export default function Home() {
    {/* <Locations/> */}
    <Techitem/>
    <Services/>
-   <Grid/>
+   {/* <Grid/> */}
    <Footer/>
     </NextUIProvider>
   )

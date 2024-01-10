@@ -105,13 +105,13 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Contact</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">team@opscraft.cloud</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">contact@opscraft.cloud</a>
                         </li>
-                        <li className="mt-3">
+                        {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Request a Demo</a>
-                        </li>
+                        </li> */}
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">+123-456-7890</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">+44 7912 649582</a>
                         </li>
                     </nav>
                 </div>
