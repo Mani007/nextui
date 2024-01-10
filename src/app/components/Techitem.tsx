@@ -14,7 +14,10 @@ function Techitem() {
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Data Craft </h2>
-            <p>Data Versioning and Controls to track and manage changes in data. </p>
+            <p>Data privacy, Data encryption to data
+versioning, data augmentation , so you
+never have to worry about the data
+changes is all about data craft. </p>
 
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
@@ -42,14 +45,19 @@ function Techitem() {
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Model Craft</h2>
-
+            <p>Training, testing, evaluating and
+Managing multiple models at the same
+time and choosing the best model for
+production is model craft.</p>
         </div>
 
     </div>
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Production Craft</h2>
-
+    <p>Taking the right type of pre-trained
+models and enhancing its capablity by training it with your own
+data to make it production ready. </p>
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
@@ -76,14 +84,21 @@ function Techitem() {
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Training Craft</h2>
+        <p>Choice of any computing
 
+infrastructure for training your model
+with or without GPU is Training
+
+craft.</p>
         </div>
 
     </div>
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Monitoring Craft</h2>
-
+            <p>Tracking models performance
+and retraining the model if
+required is the monitor craft.</p>
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
@@ -110,7 +125,9 @@ function Techitem() {
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Testing and Evaluation Craft</h2>
-
+            <p> testing, evaluating and
+Managing multiple guardrailing on production models for
+responsible AI is Testing craft.</p>
         </div>
 
     </div>
