@@ -10,10 +10,11 @@ function Techitem() {
   return (
     <>
     <br />
-    <h2 className="text-4xl text-center underline "> Technology</h2> <br />
+    <h2 className="text-4xl text-center underline "> Technology Framework</h2> <br />
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
-            <h2 className='text-2xl md:text-4xl'> Data Craft Data Versioning and Controls</h2>
+            <h2 className='text-2xl md:text-4xl'> Data Craft </h2>
+            <p>Data Versioning and Controls to track and manage changes in data. </p>
 
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
@@ -28,7 +29,7 @@ function Techitem() {
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
+    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
             <Image
@@ -62,7 +63,7 @@ function Techitem() {
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
+    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
             <Image
@@ -96,7 +97,7 @@ function Techitem() {
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
+    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
             <Image
