@@ -5,6 +5,7 @@ import Image from "next/image";
 import mainimg from '../../../public/images/pexels-google-deepmind-17483870.jpg'
 import Team from '../components/Team';
 import Footer from '../components/Footer';
+import Locations from '../basepages/Locations';
 function page() {
   return (
     <>
@@ -34,6 +35,7 @@ evolvable and highly scalable ML-powered software at an unprecedented speed.</p>
 
     </div>
     <Team/>
+    <Locations/>
     <Footer/>
     </>
   )
