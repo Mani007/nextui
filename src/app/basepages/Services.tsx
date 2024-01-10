@@ -8,7 +8,8 @@ import undraw_teaching_re_g7e3 from "../../../public/maps/illustration/undraw_te
 function Services() {
   return (
     <>
-    <h2 className="text-4xl text-center "> Services</h2>
+    <br />
+    <h2 className="text-4xl text-center "> Services</h2> <br />
       <div className="container relative mx-auto flex flex-col justify-between items-stretch content-center mt-4 px-4 gap-6 text-center md:flex-row   w-screen">
         
         <div className="w-screen bg-gray-200 overflow-hidden shadow-lg md:w-screen">
