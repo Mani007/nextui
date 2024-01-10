@@ -6,11 +6,11 @@ function Techitem() {
     <>
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
-            <h2 className='text-2xl md:text-6xl'> Data Version control</h2>
+            <h2 className='text-2xl md:text-4xl'> Data Versioning and Controls</h2>
 
         </div>
-        <div className='w-1/4  md:w-screen items-center'>
-        <div className="container max-w-sm px-5 py-5 items-center justify-center mt-4  rounded  shadow-lg">
+        <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
+        <div className="container max-w-sm  rounded  shadow-lg">
             <Image
               src={dvc}
               width={720}
