@@ -17,7 +17,7 @@ function Team() {
         <div
           className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="relative overflow-hidden bg-cover bg-no-repeat">
-            <div className='relative h-[30rem] w-[37rem] md:h-[30rem] md:w-[37rem]'>
+            <div className='relative h-96 w-screen md:h-[30rem] md:w-[37rem]'>
 
             <Image src={amit} 
            layout='fill' 
@@ -57,7 +57,7 @@ function Team() {
         <div
           className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="relative overflow-hidden bg-cover bg-no-repeat">
-            <div className='relative h-[30rem] w-[37rem] md:h-[30rem] md:w-[37rem]'>
+            <div className='relative h-96 w-screen md:h-[30rem] md:w-[37rem]'>
 
             <Image src={mohnish} 
              width={720}
@@ -76,7 +76,7 @@ function Team() {
               </path>
             </svg>
           </div>
-          <div className="">
+          <div className="p-6">
             <h5 className="mb-4 text-lg text-center font-bold">Mohnish Awade</h5>
             <p className="mb-4 text-center text-neutral-500 dark:text-neutral-300">Partner</p>
             <ul className="mx-auto flex list-inside justify-center">
