@@ -11,7 +11,7 @@ function Card(props: Carddata) {
    
   return (
     <>
-    <div className="container max-w-sm rounded overflow-hidden shadow-lg" >
+    <div className="container max-w-sm rounded py-4 hover:bg-[#7FFFD4] shadow-lg" >
   {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
   <Image
       src={props.images}
@@ -20,7 +20,7 @@ function Card(props: Carddata) {
       alt="Picture of the author"
     />
   <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">{props.title}</div>
+    <div className="font-bold text-xl text-center mb-2">{props.title}</div>
     <p className="text-gray-700 text-base">
       {props.description}
     </p>

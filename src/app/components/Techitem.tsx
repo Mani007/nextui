@@ -11,7 +11,7 @@ function Techitem() {
     <>
     <br />
     <h2 className="text-4xl text-center underline "> Technology Framework</h2> <br />
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
+    <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Data Craft </h2>
             <p>Data privacy, Data encryption to data
@@ -32,7 +32,7 @@ changes is all about data craft. </p>
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
+    <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
             <Image
@@ -52,7 +52,7 @@ production is model craft.</p>
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
+    <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Production Craft</h2>
     <p>Taking the right type of pre-trained
@@ -71,7 +71,7 @@ data to make it production ready. </p>
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
+    <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
             <Image
@@ -93,7 +93,7 @@ craft.</p>
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
+    <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Monitoring Craft</h2>
             <p>Tracking models performance
@@ -112,7 +112,7 @@ required is the monitor craft.</p>
         </div>
 
     </div>
-    <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
+    <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col-reverse md:flex-row'>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
             <Image
