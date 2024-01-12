@@ -94,11 +94,11 @@ function Footer() {
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Terms &amp; Privacy</a>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Licenes</a>
+                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">License</a>
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">FAQ</a>
-                        </li>
+                        </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
