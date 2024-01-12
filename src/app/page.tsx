@@ -21,6 +21,7 @@ import Footer from './components/Footer';
 import Locations from './basepages/Locations';
 import Services from './basepages/Services';
 import Techitem from './components/Techitem';
+import Contact from './components/Contact';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -28,18 +29,19 @@ export default function Home() {
    {/* <Navbarset></Navbarset> */}
    <Navani/>
    {/* <Navtail/> */}
-   {/* <Hero/>
-   <Sevices/> */}
+    <Hero/>
+   {/* <Sevices/> */} 
    {/* <Mcard/> */}
-   {/* <Corsal/> */}
-   {/* <Swip/> */}
+   <Corsal/>
+   <Swip/>
    {/* <Topbar/> */}
    {/* <Casenav/> */}
    {/* <Rightcard/> */}
    {/* <Textcon/> */}
    {/* <Techitem/> */}
    <Services/>
-   <Locations/>
+   {/* <Locations/> */}
+   <Contact/>
    {/* <Grid/> */}
    <Footer/>
     </NextUIProvider>

@@ -60,7 +60,7 @@ production is model craft.</p>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Production Craft</h2>
     <p>Taking the right type of pre-trained
-models and enhancing its capablity by training it with your own
+models and enhancing its capability by training it with your own
 data to make it production ready. </p>
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
@@ -130,7 +130,7 @@ required is the monitor craft.</p>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Testing and Evaluation Craft</h2>
             <p> testing, evaluating and
-Managing multiple guardrailing on production models for
+Managing multiple guardrail on production models for
 responsible AI is Testing craft.</p>
         </div>
 

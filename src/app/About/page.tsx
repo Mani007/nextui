@@ -25,7 +25,7 @@ function page() {
     <div className='container  relative mx-auto px-5 py-5 text-center items-center justify-center flex flex-col'>
       <h2 className='text-6xl underline'> About OPScraft</h2> <br />
       <p className='text-xl'> We are a team of elite software craftsmen specializing in large-scale AI and
-machine-learning technolgy consulting. We have expertise for your entire
+machine-learning technology consulting. We have expertise for your entire
 Innovation life cycle management for the next coming decades.
 We provide an end-to-end machine learning development process to design,
 

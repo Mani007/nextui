@@ -18,11 +18,11 @@ function Services() {
               src={undraw_success_factors_re_ce93}
               width={720}
               height={600}
-              alt="No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years."
+              alt="No matter how much the AI technology evolve in upcoming days, our AI strategies will 10x your profits for next 25 years."
             />
           </div>
             <h2 className="text-2xl underline">Consulting</h2>
-            <p className="text-xl"> No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years. </p> <br />
+            <p className="text-xl"> No matter how much the AI technology evolve in upcoming days, our AI strategies will 10x your profits for next 25 years. </p> <br />
           {/* <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded mt-auto ">
             Read More
           </button> */}
@@ -37,7 +37,7 @@ function Services() {
             />
           </div>
             <h2 className="text-2xl underline">Development</h2>
-            <p className="text-xl"> Complete end-to-end AI/ML technology development that reduced your development costs and time upsto 90 %. And with complete data protection. </p> <br />
+            <p className="text-xl"> Complete end-to-end AI/ML technology development that reduced your development costs and time upto 90 %. And with complete data protection. </p> <br />
           {/* <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button> */}
@@ -48,7 +48,7 @@ function Services() {
               src={undraw_coworking}
               width={720}
               height={600}
-              alt="Complete end-to-end AI/ML technology development that reduced your development costs and time upsto 90 %. And with complete data protection."
+              alt="Complete end-to-end AI/ML technology development that reduced your development costs and time upto 90 %. And with complete data protection."
             />
           </div>
             <h2 className="text-2xl underline">Staffing</h2>
@@ -67,7 +67,7 @@ function Services() {
             />
           </div>
             <h2 className="text-2xl underline">Troubleshooting</h2>
-            <p className="text-xl"> Your current AI/ML system failed and you need to fix it immidiately. Try our premium trouble shooting services for mission critical applications.</p> <br />
+            <p className="text-xl"> Your current AI/ML system failed and you need to fix it immediately. Try our premium trouble shooting services for mission critical applications.</p> <br />
           {/* <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button> */}
@@ -82,7 +82,7 @@ function Services() {
             />
           </div>
             <h2 className="text-2xl underline">Training</h2>
-            <p className="text-xl"> Tailor made corporate traing in state-of-the-art MLops to skyrocket your team's productivity. </p> <br />
+            <p className="text-xl"> Tailor made corporate training in state-of-the-art MLops to skyrocket your team's productivity. </p> <br />
           {/* <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button> */}

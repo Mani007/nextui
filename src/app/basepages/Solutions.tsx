@@ -18,7 +18,7 @@ function Solutions() {
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Large Language Models (Text Data) OPS </h2>
-            <p>Complete Large Language models (LLM) end-to-end fully operational solution with multiple opensource or non opensource LLM models to be fully customized to meet your need. </p>
+            <p>Complete Large Language models (LLM) end-to-end fully operational solution with multiple open source or non open source LLM models to be fully customized to meet your need. </p>
 
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
@@ -27,7 +27,7 @@ function Solutions() {
               src={llm}
               width={720}
               height={600}
-              alt="Complete Large Language models (LLM) end-to-end fully operational solution with multiple opensource or non opensource LLM models to be fully customized to meet your need."
+              alt="Complete Large Language models (LLM) end-to-end fully operational solution with multiple open source or non open source LLM models to be fully customized to meet your need."
             />
           </div>
         </div>
@@ -110,20 +110,20 @@ function Solutions() {
               src={gene}
               width={720}
               height={600}
-              alt="Complete customizable solution using our MLops framework to meet your need in any bioinformatics data such as genetic similarity analysis etc.."
+              alt="Complete customizable solution using our MLops framework to meet your need in any bio-informatics data such as genetic similarity analysis etc.."
             />
           </div>
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
-            <h2 className='text-2xl md:text-4xl'> Bioinformatics Data OPS</h2>
-            <p>Complete customizable solution using our MLops framework to meet your need in any bioinformatics data such as genetic similarity analysis etc. </p>
+            <h2 className='text-2xl md:text-4xl'> Bio-informatics Data OPS</h2>
+            <p>Complete customizable solution using our MLops framework to meet your need in any bio-informatics data such as genetic similarity analysis etc. </p>
         </div>
 
     </div>
     <div className='container relative mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
-            <h2 className='text-2xl md:text-4xl'> Time Seties Data OPS </h2>
-            <p>Complete customizable solution using our MLops framework to meet your need in any type of time-series data processing such as forcasting etc. </p>
+            <h2 className='text-2xl md:text-4xl'> Time Series Data OPS </h2>
+            <p>Complete customizable solution using our MLops framework to meet your need in any type of time-series data processing such as forecasting etc. </p>
 
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
@@ -132,7 +132,7 @@ function Solutions() {
               src={forecast}
               width={720}
               height={600}
-              alt="Complete customizable solution using our MLops framework to meet your need in any type of time-series data processing such as forcasting etc."
+              alt="Complete customizable solution using our MLops framework to meet your need in any type of time-series data processing such as forecasting etc."
             />
           </div>
         </div>
@@ -145,13 +145,13 @@ function Solutions() {
               src={location}
               width={720}
               height={600}
-              alt="Complete customizable solution using our MLops framework to meet your need in any locations data such as nodes clusturing etc."
+              alt="Complete customizable solution using our MLops framework to meet your need in any locations data such as nodes clustering etc."
             />
           </div>
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Locations Data OPS</h2>
-            <p>Complete customizable solution using our MLops framework to meet your need in any locations data such as nodes clusturing etc. </p>
+            <p>Complete customizable solution using our MLops framework to meet your need in any locations data such as nodes clustering etc. </p>
         </div>
 
     </div>
