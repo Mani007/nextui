@@ -30,16 +30,16 @@ export default function Home() {
    {/* <Navtail/> */}
    {/* <Hero/>
    <Sevices/> */}
-   <Mcard/>
+   {/* <Mcard/> */}
    {/* <Corsal/> */}
    {/* <Swip/> */}
-   <Topbar/>
+   {/* <Topbar/> */}
    {/* <Casenav/> */}
    {/* <Rightcard/> */}
    {/* <Textcon/> */}
-   {/* <Locations/> */}
-   <Techitem/>
+   {/* <Techitem/> */}
    <Services/>
+   <Locations/>
    {/* <Grid/> */}
    <Footer/>
     </NextUIProvider>

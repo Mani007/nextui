@@ -7,9 +7,12 @@ import training from '../../../public/images/SVM.png'
 import testing from '../../../public/images/model ops.png'
 import prod from '../../../public/images/Training and Evaluation.png'
 import responsible from '../../../public/images/Testing craft.png'
-function Techitem() {
+import Navani from '../components/Navani';
+import Footer from '../components/Footer';
+function page() {
   return (
     <>
+    <Navani/>
     <br />
     <h2 className="text-4xl text-center underline "> Technology Framework</h2> <br />
     <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
@@ -132,8 +135,9 @@ responsible AI is Testing craft.</p>
         </div>
 
     </div>
+    <Footer/>
     </>
   )
 }
 
-export default Techitem
+export default page
