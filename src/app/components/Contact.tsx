@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
-          <div className="-mx-4 flex flex-col items-center justify-center md:flex-row lg:justify-between">
+          <div className="-mx-4 flex flex-col items-center px-20 justify-center md:flex-row lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <span className="mb-4 block text-base font-semibold text-[#00df9a]">
@@ -39,7 +39,8 @@ const Contact = () => {
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
                     Praxis Digital <br />
-                    175 Elsa Road Welling,Kent <br />DA16 1JR
+                    175 Elsa Road Welling,Kent <br />DA16 1JR <br />
+                    United Kingdom
                     </p>
                   </div>
                 </div>

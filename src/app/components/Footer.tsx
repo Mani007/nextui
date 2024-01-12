@@ -55,12 +55,12 @@ function Footer() {
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a] ">The Company</a>
                         </li>
-                        <li className="mt-3">
+                        {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">The Team</a>
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Partner with US</a>
-                        </li>
+                        </li> */}
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Responsible AI</a>
                         </li>
@@ -91,14 +91,14 @@ function Footer() {
                     </h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Terms &amp; Privacy</a>
+                            <a target="_blank" href="https://www.copyright.gov/legislation/dmca.pdf" className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Terms &amp; Privacy</a>
                         </li>
-                        <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">License</a>
+                        {/* <li className="mt-3">
+                            <a  className="text-gray-500 cursor-pointer hover:text-[#00df9a]">License</a>
                         </li>
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">FAQ</a>
-                        </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                        </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          */}
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
