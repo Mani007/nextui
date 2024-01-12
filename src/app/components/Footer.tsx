@@ -81,9 +81,9 @@ function Footer() {
                         <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Industries</a>
                         </li>
-                        <li className="mt-3">
+                        {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Impact</a>
-                        </li>
+                        </li> */}
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">

@@ -15,7 +15,7 @@ function Navani() {
     { id: 2, text: 'Technology' },
     { id: 3, text: 'Services' },
     { id: 4, text: 'Solutions' },
-    { id: 5, text: 'Impact Stories' },
+    // { id: 5, text: 'Impact Stories' },
     { id: 6, text: 'Industries' },
     { id: 7, text: 'Responsible AI' },
 
