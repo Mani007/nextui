@@ -22,6 +22,7 @@ import Locations from './basepages/Locations';
 import Services from './basepages/Services';
 import Techitem from './components/Techitem';
 import Contact from './components/Contact';
+import Bgvideo from './components/Bgvideo';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -29,11 +30,12 @@ export default function Home() {
    {/* <Navbarset></Navbarset> */}
    <Navani/>
    {/* <Navtail/> */}
+   <Bgvideo/>
     <Hero/>
    {/* <Sevices/> */} 
    {/* <Mcard/> */}
-   <Corsal/>
-   <Swip/>
+   {/* <Corsal/> */}
+   {/* <Swip/> */}
    {/* <Topbar/> */}
    {/* <Casenav/> */}
    {/* <Rightcard/> */}
