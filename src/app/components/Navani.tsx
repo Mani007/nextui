@@ -24,7 +24,7 @@ function Navani() {
   ];
   return (
     <>
-       <div className='fixed bg-slate-200 flex justify-between items-center md:h-24 max-w-full  w-full px-8 md:mt-4 mr-4 text-slate-900 z-30 '>
+       <div className='fixed bg-slate-200 flex justify-between items-center md:h-24 max-w-full  w-full px-8 md:mt-4 mr-4  text-slate-900 z-30 '>
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
       <div className="mx-2 my-4 ">

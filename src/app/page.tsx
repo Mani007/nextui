@@ -31,7 +31,7 @@ export default function Home() {
    <Navani/>
    {/* <Navtail/> */}
    <Bgvideo/> 
-    <Hero/>
+    {/* <Hero/> */}
    {/* <Sevices/> */} 
    {/* <Mcard/> */}
    {/* <Corsal/> */}
