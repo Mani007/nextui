@@ -54,7 +54,7 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">OPSCRAFT</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <Link href='/' className="text-gray-500 cursor-pointer hover:text-[#00df9a] ">The Company</Link>
+                            <Link href='/About' className="text-gray-500 cursor-pointer hover:text-[#00df9a] ">The Company</Link>
                         </li>
                         {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">The Team</a>
