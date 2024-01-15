@@ -9,7 +9,7 @@ import Industry from '../basepages/Industry'
 function page() {
   return (
     <>
-    <Navani/>
+    <Navani/> <br /><br /><br /><br /><br />
    <Industry/>
     <Footer/>
     </>

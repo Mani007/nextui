@@ -16,7 +16,7 @@ function Industry() {
         {
             
             return (
-                <div className='mx-3'>
+                <div  key={item.images} className='mx-3'>
                     <Card images = {item.images} title = {item.title} description = {item.description} />
                  </div>
             )
@@ -30,7 +30,7 @@ function Industry() {
         {
             
             return (
-                <div className='mx-3'>
+                <div  key={item.images} className='mx-3'>
                     <Card images = {item.images} title = {item.title} description = {item.description} />
                  </div>
             )
@@ -44,7 +44,7 @@ function Industry() {
         {
             
             return (
-                <div className='mx-3'>
+                <div key={item.images} className='mx-3'>
                     <Card images = {item.images} title = {item.title} description = {item.description} />
                  </div>
             )
@@ -58,7 +58,7 @@ function Industry() {
         {
             
             return (
-                <div className='mx-3'>
+                <div key={item.images} className='mx-3'>
                     <Card images = {item.images} title = {item.title} description = {item.description} />
                  </div>
             )
@@ -71,7 +71,7 @@ function Industry() {
         {
             
             return (
-                <div className='mx-3'>
+                <div key={item.images} className='mx-3'>
                     <Card images = {item.images} title = {item.title} description = {item.description} />
                  </div>
             )
@@ -84,7 +84,7 @@ function Industry() {
         {
             
             return (
-                <div className='mx-3'>
+                <div key={item.images} className='mx-3'>
                     <Card images = {item.images} title = {item.title} description = {item.description} />
                  </div>
             )

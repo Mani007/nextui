@@ -13,7 +13,7 @@ import Corsal from './components/Corsal';
 import Swip from './components/Swip';
 import Topbar from './components/Topbar';
 import Grid from './components/Grid';
-import Casenav from './components/Casenav';
+
 import Rightcard from './components/Rightcard';
 import Textcon from './components/Textcon';
 import Navani from './components/Navani';

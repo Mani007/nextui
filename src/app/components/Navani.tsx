@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Image from 'next/image'
 import logo from '../../../public/logo/ops.png'
+import Link from 'next/link'
 function Navani() {
     const [nav, setNav] = useState(false);
 
@@ -17,8 +18,8 @@ function Navani() {
     { id: 3, text: 'Services' },
     { id: 4, text: 'Solutions' },
     // { id: 5, text: 'Impact Stories' },
-    { id: 6, text: 'Industries' },
-    { id: 7, text: 'Responsible AI' },
+    { id: 6, text: 'Industry' },
+    { id: 7, text: 'ResponsibleAI' },
 
   ];
   return (
@@ -28,12 +29,12 @@ function Navani() {
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
       <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
-             <Image
+             <Link href='/'><Image
       src={logo}
       width={150}
       height={150}
       alt="Picture of the author"
-    />
+    /></Link>
          </div>
 
       {/* Desktop Navigation */}
@@ -43,7 +44,8 @@ function Navani() {
             key={item.id}
             className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
           >
-            {item.text}
+            <Link href={`/${item.text}`}>{item.text}</Link>
+            
           </li>
         ))}
       </ul>
@@ -79,7 +81,7 @@ function Navani() {
             key={item.id}
             className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
           >
-            {item.text}
+            <Link href={`/${item.text}`}>{item.text}</Link>
           </li>
         ))}
       </ul>

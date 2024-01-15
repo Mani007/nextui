@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 function Footer() {
   return (
     <>
@@ -9,17 +10,17 @@ function Footer() {
         <div
             className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
             <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-                <a className="flex items-center justify-center font-medium text-[#00df9a] title-font md:justify-start">
+                <div className="flex items-center justify-center font-medium text-[#00df9a] title-font md:justify-start">
                 <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
-             <Image
+            <Link href='/'> <Image
       src="/logo/ops.png"
       width={250}
       height={250}
       alt="Picture of the author"
-    />
+    /></Link>
          </div>
-                </a>
+                </div>
                 {/* <p className="mt-2 text-sm text-gray-500">Design, Code and Ship!</p> */}
                 <div className="mt-4">
                     <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
@@ -30,15 +31,15 @@ function Footer() {
                         </a>
                         
                         <a className="ml-3 text-gray-500 cursor-pointer hover:text-[#00df9a]">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                             </svg>
                         </a>
                         <a className="ml-3 text-gray-500 cursor-pointer hover:text-[#00df9a]">
-                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
+                            <svg fill="currentColor" stroke="currentColor" strokeLinecap="round"
+                                strokeLinejoin="round" strokeWidth="0" className="w-5 h-5" viewBox="0 0 24 24">
                                 <path stroke="none"
                                     d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
                                 </path>
@@ -53,7 +54,7 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">OPSCRAFT</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a] ">The Company</a>
+                            <Link href='/' className="text-gray-500 cursor-pointer hover:text-[#00df9a] ">The Company</Link>
                         </li>
                         {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">The Team</a>
@@ -62,24 +63,24 @@ function Footer() {
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Partner with US</a>
                         </li> */}
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Responsible AI</a>
+                            <Link href='/ResponsibleAI' className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Responsible AI</Link>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Careers</a>
+                            <Link href='/Technology' className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Technology</Link>
                         </li>
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Technology</h2>
+                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Offerings</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Services</a>
+                            <Link href='/Services' className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Services</Link>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Solutions</a>
+                            <Link href='/Solutions' className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Solutions</Link>
                         </li>
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Industries</a>
+                            <Link href='/Industry' className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Industry</Link>
                         </li>
                         {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Impact</a>
@@ -91,7 +92,7 @@ function Footer() {
                     </h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a target="_blank" href="https://www.copyright.gov/legislation/dmca.pdf" className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Terms &amp; Privacy</a>
+                            <Link target="_blank" href="https://www.copyright.gov/legislation/dmca.pdf" className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Terms &amp; Privacy</Link>
                         </li>
                         {/* <li className="mt-3">
                             <a  className="text-gray-500 cursor-pointer hover:text-[#00df9a]">License</a>
@@ -105,13 +106,13 @@ function Footer() {
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Contact</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">contact@opscraft.cloud</a>
+                            <p className="text-gray-500 cursor-pointer hover:text-[#00df9a]">contact@opscraft.cloud</p>
                         </li>
                         {/* <li className="mt-3">
                             <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">Request a Demo</a>
                         </li> */}
                         <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-[#00df9a]">+44 7912 649582</a>
+                            <p className="text-gray-500 cursor-pointer hover:text-[#00df9a]">+44 7912 649582</p>
                         </li>
                     </nav>
                 </div>
@@ -119,7 +120,7 @@ function Footer() {
         </div>
         <div className="bg-gray-300">
             <div className="container px-5 py-4 mx-auto">
-                <p className="text-sm text-gray-700 capitalize text-center xl:text-center">© 2023 All rights reserved </p>
+                <p className="text-sm text-gray-700 capitalize text-center xl:text-center">© 2023-2024 All rights reserved </p>
             </div>
         </div>
     </footer>

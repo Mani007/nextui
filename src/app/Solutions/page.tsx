@@ -17,7 +17,7 @@ import Solutions from '../basepages/Solutions';
 function page() {
   return (
     <>
-    <Navani/>
+    <Navani/> <br /><br /><br /><br /><br />
     <Solutions/>
     <Footer/>
     </>

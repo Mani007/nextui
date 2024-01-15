@@ -12,9 +12,9 @@ import Footer from '../components/Footer';
 function page() {
   return (
     <>
-    <Navani/>
+    <Navani/> 
     <br />
-    <h2 className="text-4xl text-center underline "> Services</h2> <br />
+    <h2 className="text-4xl text-center mt-24 underline "> Services</h2> <br />
     <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
         <h2 className="text-2xl underline">Consulting</h2>

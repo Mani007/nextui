@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 function page() {
   return (
     <>
-    <Navani/>
+    <Navani/><br /><br /><br /><br /><br />
    <Responsible/>
     <Footer/>
     </>

@@ -14,7 +14,7 @@ function page() {
     <>
     <Navani/>
     <br />
-    <h2 className="text-4xl text-center underline "> Technology Framework</h2> <br />
+    <h2 className="text-4xl mt-24 text-center underline "> Technology Framework</h2> <br />
     <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
             <h2 className='text-2xl md:text-4xl'> Data Craft </h2>

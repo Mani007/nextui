@@ -9,8 +9,8 @@ import Locations from '../basepages/Locations';
 function page() {
   return (
     <>
-    <Navani/>
-    <div className='container  relative mx-auto px-5 py-5 text-center items-center justify-center flex flex-col'>
+    <Navani/> <br /><br /><br /><br /><br />
+    <div className='container relative mx-auto px-5 py-5 text-center items-center justify-center flex flex-col'>
     <div className="container   rounded  shadow-lg">
             <Image
               src={mainimg}
