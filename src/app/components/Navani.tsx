@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Image from 'next/image'
+import logo from '../../../public/logo/ops.png'
 function Navani() {
     const [nav, setNav] = useState(false);
 
@@ -22,13 +23,13 @@ function Navani() {
   ];
   return (
     <>
-       <div className='bg-slate-200 flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 md:mt-4 text-slate-900 '>
+       <div className='fixed bg-slate-200 flex justify-between items-center h-24 max-w-full  w-full px-8 md:mt-4  text-slate-900 z-30 '>
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
       <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
              <Image
-      src="/logo/ops.png"
+      src={logo}
       width={150}
       height={150}
       alt="Picture of the author"
@@ -56,7 +57,7 @@ function Navani() {
       <ul
         className={
           nav
-            ? 'fixed md:hidden right-0 top-24 w-[60%] h-full  bg-slate-200 ease-in-out duration-500 z-10'
+            ? 'fixed md:hidden right-0 top-16 w-[50%] h-full  bg-slate-200 ease-in-out duration-500 z-10'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >

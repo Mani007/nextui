@@ -30,7 +30,7 @@ export default function Home() {
    {/* <Navbarset></Navbarset> */}
    <Navani/>
    {/* <Navtail/> */}
-   <Bgvideo/>
+   <Bgvideo/> 
     <Hero/>
    {/* <Sevices/> */} 
    {/* <Mcard/> */}

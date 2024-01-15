@@ -1,13 +1,12 @@
 import React from 'react'
 import Video from 'next-video';
 import myVideo from '../../../public/Videos/IntroBGopscraft.mp4';
-import Navani from './Navani';
 function Bgvideo() {
     // You don't have to pass full path for video src
 
   return (
    <>
-   <div className="container relative mx-auto flex px-5 py-5 items-center justify-center flex-col">
+   <div className="container relative mx-0 my-0 flex px-5 py-5 items-center justify-center flex-col">
     {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
     {/* <Image
       src="/images/opscraftherosection.png"
@@ -15,8 +14,7 @@ function Bgvideo() {
       height={600}
       alt="Picture of the author"
     /> */}
-    <video src="Videos/IntroBGopscraft.mp4" autoPlay loop muted playsInline className='w-screen h-screen '/>
-    <Navani/>
+    <video src="Videos/IntroBGopscraft.mp4" autoPlay loop muted playsInline className='w-full h-screen '/>
     <div className="text-center absolute lg:w-2/3 w-full">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
       <p className="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
@@ -24,7 +22,7 @@ function Bgvideo() {
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
         <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
       </div>
-    N</div>
+    </div>
   </div>
   
              
