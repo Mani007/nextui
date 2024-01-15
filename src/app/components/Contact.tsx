@@ -39,7 +39,7 @@ const Contact = () => {
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
                     Praxis Digital <br />
-                    175 Elsa Road Welling,Kent <br />DA16 1JR <br />
+                    8 Devonshire Square <br />London <br /> EC2M 4PL <br />
                     United Kingdom
                     </p>
                   </div>
