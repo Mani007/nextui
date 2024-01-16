@@ -128,8 +128,8 @@ required is the monitor craft.</p>
           </div>
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
-            <h2 className='text-2xl md:text-4xl'> Testing and Evaluation Craft</h2>
-            <p> testing, evaluating and
+            <h2 className='text-2xl md:text-4xl'> Testing Craft</h2>
+            <p> Testing, evaluating and
 Managing multiple guardrail on production models for
 responsible AI is Testing craft.</p>
         </div>

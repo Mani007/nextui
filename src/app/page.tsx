@@ -45,6 +45,7 @@ export default function Home() {
    <Flowbitecorsol/>
    <Services/>
    <Landingsolution/>
+   <Hero/>
    {/* <Locations/> */}
    <Contact/>
    {/* <Grid/> */}

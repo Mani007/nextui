@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 function Hero() {
   return (
     <>
@@ -19,11 +20,12 @@ function Hero() {
       alt="Picture of the author"
     />
     <div className="text-center absolute lg:w-2/3 w-full">
-      <h1 className="title-font sm:text-4xl  text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
-      <p className="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
+      <h1 className="title-font sm:text-3xl  text-3xl md:text-6xl mb-4 font-medium text-gray-900">Working with 20+ different <span className='text-[#00df9a]'>Industries</span></h1>
+      
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+        <Link href='/Industry'>
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-[#7FFFD4] rounded text-lg">Know More</button>
+        </Link>
       </div>
     </div>
   </div>
