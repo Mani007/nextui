@@ -13,7 +13,7 @@ import Corsal from './components/Corsal';
 import Swip from './components/Swip';
 import Topbar from './components/Topbar';
 import Grid from './components/Grid';
-
+import Flowbitecorsol from './components/Flowbitecorsol';
 import Rightcard from './components/Rightcard';
 import Textcon from './components/Textcon';
 import Navani from './components/Navani';
@@ -23,6 +23,7 @@ import Services from './basepages/Services';
 import Techitem from './components/Techitem';
 import Contact from './components/Contact';
 import Bgvideo from './components/Bgvideo';
+import Landingsolution from './components/Landingsolution';
 export default function Home() {
   return (
     <NextUIProvider>
@@ -41,7 +42,9 @@ export default function Home() {
    {/* <Rightcard/> */}
    {/* <Textcon/> */}
    {/* <Techitem/> */}
+   <Flowbitecorsol/>
    <Services/>
+   <Landingsolution/>
    {/* <Locations/> */}
    <Contact/>
    {/* <Grid/> */}

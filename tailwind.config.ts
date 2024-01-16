@@ -18,6 +18,6 @@ const config: Config = {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui(), require('flowbite/plugin'),],
 }
 export default config

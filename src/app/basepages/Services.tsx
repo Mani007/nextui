@@ -9,7 +9,7 @@ function Services() {
   return (
     <>
     <br />
-    <h2 className="text-4xl text-center underline "> Services</h2> <br />
+    <h2 className="text-4xl text-center mt-4 underline "> Services</h2> <br />
       <div className="container relative mx-auto flex flex-col justify-between items-stretch content-center mt-4 mb-4 px-4 gap-6 text-center md:flex-row   w-screen">
         
         <div className="w-screen bg-slate-50 hover:bg-[#7FFFD4] overflow-hidden shadow-lg md:w-screen">
