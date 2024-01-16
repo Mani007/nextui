@@ -33,7 +33,7 @@ function Services() {
               src={undraw_programming_re_kg9v}
               width={720}
               height={600}
-              alt="No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years."
+              alt="No matter how much the AI technology evolve in upcoming days, our AI strategies will 10x your profits for next 25 years."
             />
           </div>
             <h2 className="text-2xl underline">Development</h2>
