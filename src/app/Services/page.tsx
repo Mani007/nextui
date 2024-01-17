@@ -87,7 +87,7 @@ function page() {
     <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
         <h2 className="text-2xl underline">Training</h2>
-            <p className="text-xl"> Tailor made corporate traing in state-of-the-art MLops to skyrocket your team's productivity. </p> <br />
+            <p className="text-xl"> Tailor made corporate traing in state-of-the-art MLops to skyrocket your teams productivity. </p> <br />
       
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>

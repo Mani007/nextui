@@ -64,7 +64,7 @@ function Landingsolution() {
                   AUDIOops
                 </h6>
                 <p className="mb-8 inset-x-0 bottom-0 text-base leading-relaxed">
-                  MLops for audio and music Data
+                  MLops for speech, audio and music Data
                 </p>
               </div>
             

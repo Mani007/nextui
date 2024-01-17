@@ -82,7 +82,7 @@ function Services() {
             />
           </div>
             <h2 className="text-2xl underline">Training</h2>
-            <p className="text-xl"> Tailor made corporate training in state-of-the-art MLops to skyrocket your team's productivity. </p> <br />
+            <p className="text-xl"> Tailor made corporate training in state-of-the-art MLops to skyrocket your teams productivity. </p> <br />
           {/* <button className="bg-gray-500  hover:bg-[#00df9a] text-white font-bold py-2 px-4 rounded">
             Read More
           </button> */}

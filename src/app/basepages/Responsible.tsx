@@ -15,7 +15,7 @@ function Responsible() {
 <br />
       <p className='text-2xl'>2. Model Understanding and interoperability is Key
  </p> 
-      <p className='text-xl'>Humans' understanding of dense models, their data sources and guardrail practices will decide the dependability, trustworthiness and limitations of our AI systems. Before using external models or API, we would prefer understanding our data and the data models they are trained on. This will help us to decide transparency and accountability  of the AI system  and exact positions to fix the issues, if arises. Practice of managing clear and transparent historical log reports and documentation will serve as guardrail indicators for the entire AI lifecycle.  
+      <p className='text-xl'>Humans understanding of dense models, their data sources and guardrail practices will decide the dependability, trustworthiness and limitations of our AI systems. Before using external models or API, we would prefer understanding our data and the data models they are trained on. This will help us to decide transparency and accountability  of the AI system  and exact positions to fix the issues, if arises. Practice of managing clear and transparent historical log reports and documentation will serve as guardrail indicators for the entire AI lifecycle.  
 </p>
 <br />
 <p className='text-2xl'>3. Safe by default
