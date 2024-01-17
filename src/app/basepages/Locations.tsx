@@ -3,7 +3,7 @@ import React from "react";
 import WorldMap from "react-svg-worldmap";
 
 function Locations() {
-  const width = Math.min(window.innerHeight, window.innerWidth) * 0.75;
+  //const width = Math.min(window.innerHeight, window.innerWidth) * 0.75;
   const data = [
     { country: "in", value: 1 }, // india
     { country: "us", value: 1 }, // united states
@@ -11,7 +11,7 @@ function Locations() {
     { country: "de", value: 1 }, // Dermany
   ];
 
-  console.log(width);
+  //console.log(width);
 
   return (
     <>
@@ -20,7 +20,7 @@ function Locations() {
         <WorldMap
           color="#00df9a"
           value-suffix="people"
-          size={width}
+          size={560}
           data={data}
         //   textLabelFunction={createTextLabels}
         />
