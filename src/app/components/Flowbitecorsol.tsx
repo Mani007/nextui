@@ -15,7 +15,7 @@ export default function Component() {
 
     
     <div className="container relative mx-auto flex flex-col justify-between items-stretch content-center mt-4 mb-4  gap-6 text-center md:flex-row   w-screen">
-      <div className="container relative mt-20 h-screen w-screen bg-[#00df9a] sm:h-64 xl:h-80 2xl:h-screen">
+      <div className="container relative mt-20 h-screen w-screen bg-[#00df9a]  2xl:h-screen">
       <h2 className="text-4xl mt-4 text-center underline "> Technology Framework</h2> 
       <Carousel slideInterval={5000}>
       <section className="text-gray-600 body-font">
