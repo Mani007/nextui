@@ -15,7 +15,9 @@ function Locations() {
 
   return (
     <>
-        <h2 className="text-center text-2xl">Our Presence</h2>
+    <br />
+    <br />
+        <h2 className="text-center text-4xl underline">Our Presence</h2>
       <div className="container flex justify-center items-center">
         <WorldMap
           color="#00df9a"

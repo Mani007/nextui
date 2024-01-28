@@ -2,19 +2,19 @@ export const data1 = [
     {
       title: "Banking",
       description:
-        "From financial fraud control to complete baking automation solution using Artificial intelligence(AI) and Machine Learning(ML) technology. Our MLops framework will give you unprecedented technology advantage for next few decades.",
+        "From financial fraud control to complete banking automation solution using Artificial intelligence(AI) and Machine Learning(ML) technology. Our MLops framework will give you unprecedented technology advantage for next few decades.",
       images: "/images/banking.jpg",
     },
     {
       title: "Insurance",
       description:
-        "With our MLops framework, insurance's crucial predictive Ml and dynamic premium pricing will setup new industry standards. Hence huge time and cost savings.",
+        "With our MLops framework, insurance's crucial predictive Machine Learning and dynamic premium pricing will setup new industry standards. Hence huge time and cost savings.",
       images: "/images/insurance.jpg",
     },
     {
       title: "Capital Markets",
       description:
-        "From algo trading to legal document precessing automation, our MLops framework will completely optimize majority of business processes in capital markets",
+        "From algo trading to legal documents processing automation, our MLops framework will completely optimize majority of business processes in capital markets",
       images: "/images/stocks.jpg",
     },
    
@@ -30,7 +30,7 @@ export const data1 = [
     {
       title: "Education",
       description:
-        "Our MLops framework enable teacher to have AI assistants that will almost replace text books and non creative ways of learning experiences.",
+        "Our MLops framework enable teachers to have AI assistants that will almost replace text books and non creative ways of learning experiences.",
       images: "/images/edu.jpg",
     },
     {
@@ -58,7 +58,7 @@ export const data1 = [
     {
       title: "Pharmaceuticals",
       description:
-        "New drugs and vaccines developments can never be so fast, thank to Artificial Intelligence(AI) technology and our MLops framework. ",
+        "New drugs discovery and vaccines development can never be so fast, thanks to Artificial Intelligence(AI) technology and our MLops framework. ",
       images: "/images/pharma.jpg",
     },
    

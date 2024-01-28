@@ -5,7 +5,7 @@ function Responsible() {
   return (
     <>
      <div className='container  relative  mx-auto px-5 py-5    flex flex-col'>
-      <h1 className='text-6xl text-center items-center underline'> Our Principles of <span className='text-[#00df9a]'>Responsible AI</span> </h1> <br />
+      <h1 className='text-6xl text-center items-center underline'> Our Principles of <span className='text-[#00df9a]'>ResponsibleAI</span> </h1> <br />
       <p className='text-4xl underline'>Enhancing power of AI with Responsibility </p> 
       <p className='text-2xl'>We believe Artificial Intelligence (AI) has the tremendous power to change the way we do our everyday things now. And We are committed to be the change by helping our clients with state of the art modern day MLops capability with clear,honesty,transparency and integrity. We follow strong ethics principles for the responsible use of AI. Our principles are as follows:
  </p> <br /> <br />

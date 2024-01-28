@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'OPScraft',
-  description: 'Welcome to Opscraft.cloud. State of the art MLops service provider including LLMops, Visualops etc. for all types of machine learning and deep learning applications. We are committed to save your time and cost for AI/ML product development also our solution is future proof, hence you will always be leaps ahead of your competition for decades, no matter how much technology changes. ',
+  description: 'OPScraft is the LAST THING you will ever need for your Machine Learning and Artificial Intelligence technology. A State-of-the-art MLops solutions and service provider including scalable, maintainable, testable LLMops, VisualOPS etc. For all types of machine learning and deep learning applications. We are committed to save your time and cost for AI/ML product development also our solution is future proof, hence you will always be leaps ahead of your competition in coming decades, no matter how much technology advances. ',
   
 }
 

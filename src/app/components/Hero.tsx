@@ -20,7 +20,7 @@ function Hero() {
       alt="Picture of the author"
     />
     <div className="text-center absolute lg:w-2/3 w-full">
-      <h1 className="title-font sm:text-3xl  text-3xl md:text-6xl mb-4 font-medium text-gray-900">Working with 20+ different <span className='text-[#00df9a]'>Industries</span></h1>
+      <h1 className="title-font sm:text-3xl  text-3xl md:text-6xl mb-4 font-medium text-gray-900">Enhancing 20+ different <span className='text-[#00df9a]'>Industries</span></h1>
       
       <div className="flex justify-center">
         <Link href='/Industry'>

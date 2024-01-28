@@ -18,7 +18,7 @@ function page() {
     <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
         <h2 className="text-2xl underline">Consulting</h2>
-            <p className="text-xl"> No matter how much the AI technolgy evolve in upcoming days, our AI strategies will 10x your profits for next 25 years. </p> <br /> 
+            <p className="text-xl"> No matter how much the AI technology evolve in upcoming days, our AI strategies will 10x your profits for next 25 years. </p> <br /> 
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
         <div className="container max-w-sm  rounded  shadow-lg">
@@ -45,7 +45,7 @@ function page() {
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
         <h2 className="text-2xl underline">Development</h2>
-            <p className="text-xl"> Complete end-to-end AI/ML technology development that reduced your development costs and time upsto 90 %. And with complete data protection. </p> <br />
+            <p className="text-xl"> Complete end-to-end AI/ML technology development that reduced your development costs and time up to 90 %. And with complete data protection. </p> <br />
        </div>
 
     </div>
@@ -79,7 +79,7 @@ function page() {
         </div>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
         <h2 className="text-2xl underline">Troubleshooting</h2>
-            <p className="text-xl"> Your current AI/ML system failed and you need to fix it immidiately. Try our premium trouble shooting services for mission critical applications.</p> <br />
+            <p className="text-xl"> Your current AI/ML system failed and you need to fix it immediately. Try our premium trouble shooting services for mission critical applications.</p> <br />
        
         </div>
 
@@ -87,7 +87,7 @@ function page() {
     <div className='container relative hover:bg-[#7FFFD4] mx-auto px-5 py-5 items-center justify-center mt-4 gap-6 flex flex-col md:flex-row'>
         <div className='w-3/4    text-center md:flex-row  md:w-screen'>
         <h2 className="text-2xl underline">Training</h2>
-            <p className="text-xl"> Tailor made corporate traing in state-of-the-art MLops to skyrocket your teams productivity. </p> <br />
+            <p className="text-xl"> Tailor made corporate training in state-of-the-art MLops to skyrocket your teams productivity. </p> <br />
       
         </div>
         <div className=' w-screen px-5 py-5  mt-4 flex justify-center items-center  md:w-screen '>
