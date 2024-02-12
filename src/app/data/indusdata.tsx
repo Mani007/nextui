@@ -8,7 +8,7 @@ export const data1 = [
     {
       title: "Insurance",
       description:
-        "With our MLops framework, insurance's crucial predictive Machine Learning and dynamic premium pricing will setup new industry standards. Hence huge time and cost savings.",
+        "With our MLops framework, insurance's crucial predictive Machine Learning and dynamic premium pricing will setup new industry standards resulting in considerable time and cost savings.",
       images: "/images/insurance.jpg",
     },
     {
@@ -30,7 +30,7 @@ export const data1 = [
     {
       title: "Education",
       description:
-        "Our MLops framework enable teachers to have AI assistants that will almost replace text books and non creative ways of learning experiences.",
+        "Our MLops framework enable teachers to have AI assistants that will almost replace text books and non creative learning experiences.",
       images: "/images/edu.jpg",
     },
     {
@@ -52,7 +52,7 @@ export const data1 = [
     {
       title: "Healthcare",
       description:
-        "Plan and operate your health care services better to give safe and reliable medical facilities for every citizens using Artificial Intelligence(AI) and our MLops framework. ",
+        "New drug discoveries and vaccine development are , thanks to Artificial Intelligence(AI) technology and our MLops framework.",
       images: "/images/health.jpg",
     },
     {
@@ -80,7 +80,7 @@ export const data1 = [
     {
       title: "Energy",
       description:
-        "AI with our MLops framework will enable smart grid and carbon emission reduction system by optimizing processes along with cleaner energy sources, reducing the overall carbon footprint of the energy industry",
+        "AI with our MLops framework will enable smart grid and carbon emission reduction systems by optimizing processes along with cleaner energy sources, reducing the overall carbon footprint of the energy industry.",
       images: "/images/energy.jpg",
     },
 ]

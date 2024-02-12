@@ -20,11 +20,14 @@ import Techitem from './components/Techitem';
 import Contact from './components/Contact';
 import Bgvideo from './components/Bgvideo';
 import Landingsolution from './components/Landingsolution';
+import {motion, useInView, useAnimation } from 'framer-motion'
 export default function Home() {
   return (
     <NextUIProvider>
    {/* <First></First> */}
    {/* <Navbarset></Navbarset> */}
+   <motion.div>
+
    <Navani/>
    {/* <Navtail/> */}
    <Bgvideo/> 
@@ -46,6 +49,8 @@ export default function Home() {
    <Contact/>
    {/* <Grid/> */}
    <Footer/>
+   
+   </motion.div>
     </NextUIProvider>
   )
 }
