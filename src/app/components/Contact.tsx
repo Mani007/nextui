@@ -35,7 +35,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                      Our Headqater
+                      Our Headqaters
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
                     Praxis Digital <br />
