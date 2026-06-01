@@ -45,7 +45,7 @@ be assured to be completely GDPR(or any other law) compliant by default, even fo
 </p>
 
     </div>
-    <Team/>
+    {/* <Team/> */}
     <Ourvalues/>
     <Locations/>
     <Footer/>
